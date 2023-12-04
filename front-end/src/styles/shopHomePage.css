@@ -1,0 +1,136 @@
+.shop-header-container{
+    height: 20%;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.shop-image{
+    width: 120px;
+    border-radius: 90px;
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
+.shop-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shop-attribute{
+    display: flex;
+    gap: 10px;
+}
+.shop-header-btn{
+    display: flex;
+    gap:10px;
+}
+.f-btn,
+.c-btn{
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.f-btn{
+    background-color: blue;
+    color: white;
+}
+.c-btn{
+    background-color: lightgray;
+    color:black
+}
+
+.f-btn:hover,
+.c-btn:hover{
+    filter: brightness(75%);
+}
+
+.shop-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: lightgray;
+
+}
+.shop-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.shop-path {
+    margin-left: 10px;
+}
+
+
+.shop-menu-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+}
+.shop-menu-list-container{
+    margin-left: 15%;
+}
+
+.shop-item:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.shop-item{
+    font-weight: bold;
+    cursor: pointer;
+}
+.shop-banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.shop-category-image{
+    width: 180px;
+    height: 150px;
+}
+
+.shop-category-list-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.shop-category-list{
+    width: 20%;
+    list-style-type: none;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shop-by-category{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.shop-category-list:hover{
+    opacity: 75%;
+}
+
+.category-link{
+    text-decoration: none;
+    color: black;
+}

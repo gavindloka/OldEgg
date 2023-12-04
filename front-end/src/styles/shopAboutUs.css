@@ -1,0 +1,107 @@
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-us-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.shop-about-us-name{
+    font-weight: bold;
+    font-size: 20px;;
+}
+.shop-about-us-sales{
+    font-weight: bold;
+}
+.shop-sales-container{
+    font-size: 13px;
+}
+
+.about-us-under{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;   
+    object-fit: cover;
+}
+
+.deals-just-for-you{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.download-our-app{
+    font-weight: bold;
+    font-size: 25px;
+}
+.about-us-under-left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.sign-up-to{
+    font-weight: bold;
+}
+
+.email-input{
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid lightgrey;
+}
+
+.sign-up-about-us-btn{
+    height: 30px;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px;
+}
+.sign-up-to-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 228, 232);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.laptop-image{
+    width: 150px;
+}
+
+.right-container{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(215, 228, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.detail-right-container{
+    display: flex;
+    align-items: center;
+}
+
+.imageqr{
+    width: 100px;
+    border-radius: 150px;
+}
+
+
+.scanqr{
+    font-weight: bold;
+
+}

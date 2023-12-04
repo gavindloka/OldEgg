@@ -1,0 +1,68 @@
+.sign-in-assist{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    gap: 10px;
+}
+.sign-in-assist-logo{
+    width: 150px;
+    height: auto;
+}
+
+.enter-the-email{
+    text-align: left;
+    font-size: 13px;
+    opacity: 75%;
+}
+
+.email-label{
+    text-align: left;
+    font-size: 15px;
+    opacity: 75%;
+}
+.sign-in-assist-form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 2vh;
+    width: 100%;
+}
+.sign-in-assist-form input,
+.sign-in-assist-form button{
+    border: 1px solid #7d7c779a;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    color: black;
+}
+
+.sign-in-assist-form button{
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-in-assist-form a{
+    color:black;
+    font-weight: bold;
+}
+
+.sign-in-assist h2{
+    margin-top: -1vh;
+    margin-bottom: -0.5vh;
+}
+.sign-in-assist-form{
+    margin-top: -0.5vh;
+}
+
+.error-assist-msg{
+    color:red;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 3px;
+}

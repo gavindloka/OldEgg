@@ -1,0 +1,103 @@
+.sign-in-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+.sign-in-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.sign-in-container h2 {
+    margin-top: -1vh;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -1vh;
+    width: 100%;
+}
+.sign-in-form input,
+.sign-in-form button,
+.code-btn,
+.third-app-btn button {
+    width: 100%;
+    height: 40px;
+    color: black;
+    border: 2px solid #7d7c779a;
+    border-radius: 3px;
+}
+
+.sign-in-btn {
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.sign-in-btn:hover,
+.code-btn:hover,
+.third-app-btn:hover {
+    filter: brightness(75%);
+}
+
+.code-btn {
+    border: 1px solid #f2f1ed9a;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.what-one-time {
+    font-size: 13px;
+    color: black;
+    opacity: 50%;
+}
+
+.sign-up {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+
+.third-app-btn button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #f2f1ed;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.third-app-icon1,
+.third-app-icon2 {
+    width: 30px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.third-app-icon1{
+    transform: translateX(-40px);
+}
+.third-app-icon2{
+    transform: translateX(-48px);
+}
+
+
+.under-sign-in{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

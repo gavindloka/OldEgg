@@ -1,0 +1,167 @@
+.shop-percentage-container{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.feedback-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap:10px;
+}
+
+.feedback-container{
+    background-color: grey
+}
+
+.rating-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.feedback-title{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rating-amount{
+    font-size: 30px;
+    font-weight: bold;
+}   
+
+
+.percentage{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.search-review{
+    display: flex;
+    gap:10px
+}
+
+.review-header{
+    padding: 20px;
+}
+
+.search-text{
+    font-weight: bold;
+}
+
+.input-review{
+    border-radius: 5px;
+    padding: 5px;
+    width:200px;
+    border: 1px solid lightgray;
+}
+
+.go-button{
+    border-radius: 10px;
+    padding: 5px;
+    width: 40px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    border:0px
+}
+
+.review-container-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:300px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+    width: 90%;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.review-rating{
+    font-weight: bold;
+}   
+
+.customer-container{
+    width: 100px;
+}
+
+.ordered-on{
+    opacity: 75%;
+    font-size: 10px;
+}
+.review-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.feedback-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-btn-master-container{
+    display: flex;
+    margin-right: 30px;
+}
+
+.filter-btn-container button{
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+.filter-btn-left{
+    border-radius: 20px 0 0 20px;
+}
+
+.filter-btn-right{
+    border-radius: 0 20px 20px 0;
+}
+.filter-btn-container button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.customer-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.reset-btn{
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.reset-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.go-button:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+
+
+
+  

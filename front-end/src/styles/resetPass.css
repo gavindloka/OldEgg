@@ -1,0 +1,54 @@
+.reset-password-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    gap: 10px;
+}
+
+.reset-password-container h2{
+    margin-top: -1vh;
+    margin-bottom: -0.5vh;
+}
+
+.reset-pass-logo{
+    width: 150px;
+    height: auto;
+}
+
+.error-reset{
+    color:red;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 3px;
+}
+
+.reset-pass-form{
+    margin-top: -0.5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reset-pass-form input,
+.reset-pass-form button{
+    border: 1px solid #7d7c779a;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    color: black;
+}
+
+.submit-pass-btn{
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-label{
+    text-align: left;
+}

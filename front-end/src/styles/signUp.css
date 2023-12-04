@@ -1,0 +1,116 @@
+.sign-up-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+}
+
+.sign-up-container a{
+    color:black
+}
+
+.sign-up-logo{
+    width: 150px;
+    height: auto;
+}
+
+.sign-up-container h2{
+    margin-top: -1vh;
+}
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.sign-up-form button,
+.input-data{
+    width: 100%;
+    height: 40px;
+    color:black;
+    border: 1px solid #7d7c779a;
+    border-radius: 3px;
+}
+
+.sign-up-form button{
+    background-color: orange;
+    font-weight: bold;
+}
+.sign-up-form button:hover{
+    filter: brightness(75%);
+}
+.bycreating{
+    font-size: 13px;
+    opacity: 75%;
+    text-align: left;
+}
+
+.subs-check{
+    display: flex;
+    text-align: left;
+}
+.sign-in-link{
+    font-weight: bold;
+}
+.shopping-business{
+    text-align: left;
+    font-size: 15px;
+}
+.create-business-acc{
+    color:red;
+}
+
+.including{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.must-contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.validation{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    opacity: 75%;
+    
+}
+.including ul,
+.must-contain ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+.including ul{
+    transform: translateX(-9%);
+}
+.must-contain ul{
+    transform: translateX(-17%);
+}
+
+.including img,
+.must-contain img{
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.sign-up-btn{
+    cursor: pointer;
+}
+
+.error-msg{
+    color:red;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 3px;
+}

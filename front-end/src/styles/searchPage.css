@@ -1,0 +1,125 @@
+.search-page-header{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.home-sg{
+    padding: 10px;
+    font-size: 15px; 
+}
+
+.item-name{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.product-search-list li:hover{
+    opacity: 75%;
+}
+
+
+.product-search-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.product-search-list li{
+    list-style-type: none;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-image img{
+    width: 180px;
+    height: 170px;
+}
+
+.product-list-name{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.product-search-rating {
+    color: red;
+    font-size: 16px;
+}
+
+.product-search-price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-search-category {
+    font-size: 10px;
+    opacity: 75%;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.pagination button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pagination button:hover{
+    opacity: 50%;
+    filter: brightness(75%);
+}
+
+.view-details{
+    padding: 4px;
+    font-size: 10px;
+    width: 40%;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black
+}
+
+.view-details:hover{
+    filter: brightness(50%);
+}
+
+.filter-side-bar{
+    width: 15%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 0 20px 0;
+}
+
+.filter-title{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.filter{
+    display: flex;
+    padding: 10px;
+}
+
+.search-body{
+    display: flex;
+    gap:5px;
+    justify-content: flex-start;
+}
+
+.product-search-container{
+    width: 85%;
+}
+
